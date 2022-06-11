@@ -22,7 +22,7 @@
 import { Channel } from "./src/channel.ts";
 import { Lastcast } from "./src/lastcast.ts";
 import { Multicast } from "./src/multicast.ts";
-import { delay } from "https://deno.land/std@0.132.0/async/mod.ts";
+import { delay } from "https://deno.land/std@0.143.0/async/mod.ts";
 
 console.log("\n=== Channel tests ===\n");
 
