@@ -13,7 +13,7 @@ export class Queue<T> {
     { limit = 0 } = {},
   ) {
     this.#limit = limit;
-    this.#list = new Array<T>(limit);
+    this.#list = new Array<T>();
   }
 
   /**
